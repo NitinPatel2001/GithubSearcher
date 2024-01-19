@@ -1,0 +1,146 @@
+#Number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#Number span {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Title {
+    text-align: center;
+    font-size: xx-large;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#SearchBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#Loading {
+    display: none;
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#Info {
+    text-align: center;
+    font-size: x-large;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#CardList {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#NumberBar {
+    display: none;
+}
+
+#Card {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+#topiclist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#topiclist span {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    font-family: monospace;
+    background-color: blue;
+    color: white;
+
+}
+
+#cardname1 {
+    text-align: center;
+    font-family: monospace;
+    padding: 10px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#cardname2 {
+    text-align: center;
+    font-family: monospace;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#UserData1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    padding: 100px 100px 50px 100px;
+    align-items: center;
+    font-size: x-large;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#UserData2 div {
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+#UserData1 img{
+    aspect-ratio: 1/1;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#User {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#GitLink {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px
+}
+
+#GitLink a{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    #Card {
+        flex-basis: 80%;
+    }
+
+}
