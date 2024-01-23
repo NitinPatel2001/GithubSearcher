@@ -1,15 +1,36 @@
-# GITHUB USER SEARCHER
 
-This Porject is used to search all the repositories of the Github in a specific user id.
+# Project Title
 
-## How to Run this Project
+Repo_Searcher
 
-Step 1: Clone the Repo using command
+## Demo Link
 
-    ~ git clone https://github.com/NitinPatel2001/GithubSearcher.git
+Access the Project at: https://nitinpatel2001.github.io/GithubSearcher/
 
-Step 2: Now Open the index.html file from the Local storage in any Chrome Browser.
+## Table of Content
 
+- About
+- ScreeShot
+- Technologies
+- Setup for Local
 
-## Deployed Version
+## About
 
+Repo_Searcher is a website that can be used to search repository of a specific user and this is developed using pure html, css, javascript and using fetch to get the data from GitHub API.
+
+## ScreenShot
+
+![Home](./ScreenShot/Home.png)
+![Work](./ScreenShot/Work.png)
+
+## Technologies
+
+- HTML
+- CSS
+- Javascript
+- Github API
+
+## Setup for Local
+
+- download or clone the repository
+- Run the index.html HTML file into the browser.
